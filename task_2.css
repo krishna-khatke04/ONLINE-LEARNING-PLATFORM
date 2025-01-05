@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+header {
+    background-color: #474e48;
+    color: rgb(206, 190, 190);
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #3f3939;
+}
+nav a {
+    color: rgb(233, 226, 226);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover {
+    background-color: #8b7f7f;
+    color: black;
+}
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #e4ebec;
+}
+.hero h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #4d3a3a;
+}
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.course {
+    background: rgb(200, 194, 194);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    height: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.course h3 {
+    margin-top: 0;
+}
+.course p {
+    color: #555;
+}
+.course button {
+    background-color: #2ed134;
+    color: white;
+    border: none;
+    position: absolute;
+    /* position:relative; */
+
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.course button:hover {
+    background-color: #45a049;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
